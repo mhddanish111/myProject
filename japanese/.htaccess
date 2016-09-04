@@ -1,0 +1,37 @@
+# For security reasons, Option followsymlinks cannot be overridden.
+#Options +FollowSymlinks
+Options +SymLinksIfOwnerMatch
+RewriteEngine on
+RewriteRule ^index.html$ index.php 
+RewriteRule ^return-privacy-policy.html$ return-privacy-policy.php 
+RewriteRule ^about-us.html$ about-us.php 
+RewriteRule ^our-staff.html$ our-staff.php 
+RewriteRule ^contact-us.html$ contact-us.php 
+
+RewriteRule ^searchresult.html$ searchresult.php
+RewriteRule ^billing1.html$ billing1.php 
+RewriteRule ^billing.html$ billing.php
+RewriteRule ^billing-shiping-info.html$ billing-shiping-info.php
+RewriteRule ^buy-product.html$ buy-product.php 
+RewriteRule ^change-detail.html$ change-detail.php 
+RewriteRule ^customer-service.html$ customer-service.php
+RewriteRule ^login.html$ login.php 
+RewriteRule ^forgotpassword.html$ forgotpassword.php
+RewriteRule ^checkout.html$ checkout.php 
+RewriteRule ^fullinvoice.html$ fullinvoice.php 
+RewriteRule ^goforpayment.html$ goforpayment.php
+RewriteRule ^myaccount.html$ myaccount.php
+RewriteRule ^order-confirmation.html$ order-confirmation.php
+RewriteRule ^order-detail/([a-zA-Z0-9-]+).html$ order-detail.php?ordid=$1 [L]
+RewriteRule ^order-status.html$ order-status.php
+RewriteRule ^registration.html$ registration.php 
+RewriteRule ^ship-change-detail.html$ ship-change-detail.php
+RewriteRule ^thanks.html$ thanks.php
+RewriteRule ^view-cart.html$ view-cart.php
+
+
+
+RewriteRule ^([a-zA-Z0-9-]+).html$ category.php?cid=$1 [L]
+RewriteRule ^([a-zA-Z0-9-]+)/([a-zA-Z0-9-]+)/([0-9]+)/([0-9]+)/([0-9]+).html$ sub-category.php?cid=$1&sid=$2&searchperpage=$3&sortby=$4&page=$5 [L]
+RewriteRule ^(.*)/([a-zA-Z0-9-]+)/([a-zA-Z0-9-]+)/([a-zA-Z0-9-]+)/([0-9]+)/([0-9]+).html$ searchresult.php?textfield=$1&selectcat=$2&selectsub=$3&selectsortby=$4&searchperpage=$5&page=$6 [L]
+RewriteRule ^([a-zA-Z0-9-]+)/([a-zA-Z0-9-]+)/([a-zA-Z0-9-]+).html$ detail.php?cid=$1&sid=$2&pid=$3 [L]

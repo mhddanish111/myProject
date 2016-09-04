@@ -1,0 +1,118 @@
+.myFloatBarview{
+   bottom:25%;
+   right:0px;
+   height:5%;
+   position:fixed;
+	 font-size:17px;
+	  color:#E51B26; 
+	 padding-left:1%;
+	  text-align:left; 
+	 font-weight:bold; 
+	 text-decoration:none;
+	 cursor:hand;
+}
+.myFloatCart{
+   bottom:0px;
+   right:0px;
+   width:600px;
+   position:fixed;
+   border:solid 1px #333333;
+    background-color:#ffffff;  
+   	 font-size: 14px;
+	line-height: 19px;
+	padding: 5px 10px 5px 0px;
+	align:left;
+	 display:none;
+	 overflow: scroll;   
+}
+.myFloatBarhide{
+   
+   height:5%;
+	 font-size:17px;
+	  color:#E51B26;
+	  text-align:left; 
+	 font-weight:bold; 
+	 text-decoration:none;
+	 cursor:hand;
+	 }
+/*.product_texts  a{
+	font-size:13px;
+	color:#000000;
+	font-weight:bold;
+	border-right:solid 1px #ffaa13;
+	border-left:solid 1px #ffaa13;
+	border-bottom:solid 1px #ffaa13;
+	line-height:32px;
+	padding-left:5px; text-decoration: none;
+}*/
+/************* Start Product css  ********************/
+#Product_wrap {
+	width:516px;
+	float:left;
+	padding-top:10px;
+	margin:0 10px 0 10px;
+}
+.product_text {
+	font-size:13px;
+	color:#000000;
+	font-weight:bold;
+	border-right:solid 1px #ffaa13;
+	border-left:solid 1px #ffaa13;
+	border-bottom:solid 1px #ffaa13;
+	line-height:32px;
+	padding-left:5px;
+}
+.product_text p {float:left;}
+.product_texts {
+	font-size:13px;
+	color:#000000;
+	font-weight:bold;
+	border-right:solid 1px #ffaa13;
+	border-left:solid 1px #ffaa13;
+	border-bottom:solid 1px #ffaa13;
+	line-height:32px;
+	padding-left:2px;
+	text-decoration: none;
+}
+.product_texts a {
+	font-size:11px;
+	color:#000000;
+	font-weight:bold;
+	padding-left:3px;
+	padding-right:3px;
+	text-decoration: none;
+}
+.product_texts a:hover {
+	color:#ffaa13;
+}
+.product_text_right {
+	font-size:11px;
+	color:#000000;
+	padding-left:5px;
+	border-right:solid 1px #ffaa13;
+	border-bottom:solid 1px #ffaa13;
+}
+.product_name {
+	border-right:solid 1px #ffaa13;
+	border-top:solid 1px #ffaa13;
+	font-size:14px;
+	color:#FFFFFF;
+	background:#ffaa13;
+	font-weight:bold;
+	padding-left:5px;
+}
+.prev_page a {
+	border-left:solid 1px #ffaa13;
+	border-top:solid 1px #ffaa13;
+	font-size:12px;
+	color:#42776c;
+	background-color:#fee6ef;
+	display:block;
+	line-height:29px;
+	font-weight:bold;
+	padding-left:5px;
+	text-decoration:none;
+}
+.prev_page a:hover {
+	color:#000000;
+}

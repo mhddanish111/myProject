@@ -1,0 +1,15 @@
+$sBasePath = "FCKeditor/";
+
+$oFCKeditor = new FCKeditor('FCKeditor2');
+$oFCKeditor->BasePath	= $sBasePath ;
+$oFCKeditor->Value		= $str;
+$oFCKeditor->height		= "100";
+
+$oFCKeditor->Create() ;
+
+
+
+
+
+
+include("FCKeditor/fckeditor.php");

@@ -1,0 +1,297 @@
+/*
+Theme Name: Pixel.ST - v2
+Theme URI: http://pixel.st/themes/pixest/
+Description: ---
+Version: 2.0
+*/
+
+
+
+
+UL { margin: 0; padding: 0; list-style: none; }
+	UL LI { margin: 0; padding: 0; list-style: none; }
+
+OL { margin: 0; padding: 2px 8px; }
+	OL LI { margin: 0; padding: 2px 0; }
+
+
+	
+/*-----------------------------------------------------------------------------------------------------*/
+.post-style {
+	position: relative;
+	
+	line-height: 1;
+    margin: 0; padding: 0px;
+	
+	line-height: 1;
+}
+	BODY.page .post-style {
+		padding: 10px 10px;
+	}
+	
+	.post-style A {
+		color: #943b7d;
+		text-decoration: none;
+	}
+		
+		.post-style A:hover {
+			text-decoration: underline;
+		}
+	
+	.post-style .post-title {
+		color: #1f2c24;
+		font-size: 1.8em;
+		height: 56px;
+		margin: 0; padding: 0 54px 10px 0;
+	}
+		
+		.type-project .post-title {
+			margin: 10px 0 -8px; padding: 0 0 0 10px;
+			color: #6c6c6c;
+			height: auto;
+		}
+		
+		.post-style .post-title A {
+			color: #1f2c24;
+			text-decoration: none;
+		}
+			
+			.post-style .post-title A:hover {
+				text-decoration: underline;
+			}
+			
+	.post-style .post-comments {
+		position: absolute;
+		top: 58px; right: 42px;
+		width: 44px; height: 30px;
+		margin: 0; padding: 8px 0 0;
+		text-align: center;
+		color: #727272;
+		text-shadow: #EE5581 1px 1px 0;
+	}
+	
+	.post-style .post-date {
+		position: absolute;
+		top: 60px; left: -6px;
+		width: 80px; height: 52px;
+		margin: 0; padding: 4px 0 0;
+		text-align: center;
+		color: #EE5581;
+		font-size: 2em;
+	}
+		
+		.post-style .post-date SPAN {
+			color: #b77c99;
+			display: block;
+			text-transform: uppercase;
+			font-size: 0.6em;
+		}
+		
+	.post-style .post-categories {
+		margin: 0 0 10px; padding: 2px 0 2px 22px;
+		font-size: 0.9em;
+	}
+	
+	.post-style .post-entry {
+		margin: 0; padding: 0 0 0px;
+		color: #636161;
+		line-height: 1.3;
+		width:700px;G
+	}
+		
+		.post-style .post-entry .con-borde {
+			padding: 2px;
+			border: 1px solid #c5c5c5;
+		}
+		
+		.post-style .post-entry A.more-link {
+			margin: 20px 0 0; padding: 0 0 0 12px;
+			display: block;
+			font-style: italic;
+		}
+			
+			.post-style .post-entry A.more-link-desarrollo-web { color: #9f478a; }
+			.post-style .post-entry A.more-link-tiendas-online { color: #df8f1c; }
+			.post-style .post-entry A.more-link-multimedia { color: #5476a6; }
+			.post-style .post-entry A.more-link-marketing-online { color: #419863; }
+		
+		.post-style .post-entry STRONG {
+			color: #000;
+		}
+		
+		.post-style .post-entry P {
+			margin: 16px 0; padding: 0;
+		}
+		
+		.post-style .post-entry H1 {
+			margin: 16px 0; padding: 0;
+		}
+		
+		.post-style .post-entry H2 {
+			margin: 16px 0; padding: 0;
+			color: #9f478a;
+			font-size: 1.8em;
+			line-height: 1.15;
+		}
+			
+			.post-style .post-entry H2 STRONG {
+				color: #9f478a;
+			}
+			
+			.post-style .post-entry H2.h2-desarrollo-web { color: #9f478a; }
+				.post-style .post-entry H2.h2-desarrollo-web STRONG { color: #9f478a; }
+			
+			.post-style .post-entry H2.h2-tiendas-online { color: #df8f1c; }
+				.post-style .post-entry H2.h2-tiendas-online STRONG { color: #df8f1c; }
+			
+			.post-style .post-entry H2.h2-multimedia { color: #5476a6; }
+				.post-style .post-entry H2.h2-multimedia STRONG { color: #5476a6; }
+			
+			.post-style .post-entry H2.h2-marketing-online { color: #419863; }
+				.post-style .post-entry H2.h2-marketing-online STRONG { color: #419863; }
+		
+		.post-style .post-entry H3 {
+			margin: 16px 0; padding: 0;
+			color: #000;
+			font-size: 1.3em;
+		}
+		
+		.post-style .post-entry H4
+		.post-style .post-entry H5,
+		.post-style .post-entry H6 {
+			margin: 16px 0; padding: 0;
+		}
+		
+		.post-style .post-entry HR {
+			margin: 16px 0; padding: 0;
+			height: 10px;
+			overflow: hidden;
+			border: 0 none;
+		}
+			
+			.post-style .post-entry HR.px3 {
+				height: 3px;
+			}
+		
+		.post-style .post-entry IMG {
+			padding: 1px;
+			border: solid #c5c5c5;
+			border-width: 0px 0px 0px;
+		}
+			
+			.post-style .post-entry IMG.noborde {
+				border: 0 none;
+			}
+		
+		.post-style .post-entry BLOCKQUOTE {
+			margin: 16px 0; padding: 1px 1px 1px 0px;
+				color: #979797;
+		}
+		
+	
+	
+	
+
+		
+/* HOME */
+BODY.home {
+}
+	
+	BODY.home .contenido {
+		padding-top: 0;
+	}
+		
+		BODY.home .sidebar {
+			padding-top: 60px;
+		}
+	
+	BODY.home .post-style {
+		margin: 0; padding: 0;
+		background: none;
+		border: 0 none;
+	}
+		
+		BODY.home .post-style .post-entry {
+			margin: 0; padding: 0;
+			background: none;
+			border: 0 none;
+		}	
+
+
+.post-style .post-entry .last_projects {
+	margin: 0px s; padding: 0;
+}
+	
+	.post-style .post-entry .last_projects UL {
+		margin: 0; padding: 0;
+	}
+	
+		.post-style .post-entry .last_projects UL LI {
+			margin: 0px 17px 38px; padding: 0;
+			float: left;
+			width: 198px; height: 170px;
+			position: relative;
+			background: none;
+		}
+			
+			.post-style .post-entry .last_projects UL LI A {
+				width: 200px; height: 180px;
+				margin: 0; padding: 1px;
+				overflow: hidden;
+				display: block;
+				position: relative;
+				border: 6px solid #270E02;
+			}
+				
+				.post-style .post-entry .last_projects UL LI A:hover {
+					text-decoration: none;
+				}
+			
+			.post-style .post-entry .last_projects UL LI IMG {
+				margin: 0; padding: 0;
+			}
+			
+		
+			
+			.post-style .post-entry .last_projects UL LI .last_projects_caption {
+				position: absolute;
+				margin: 0; padding: 10px 8px;
+				top: 150px; left: 1px;
+				width: 190px; height: 200px;
+				background: #270E02;
+				font-family:Arial, Helvetica, sans-serif;
+				font-size:13px;
+				text-align:left;
+				color: #E2E2E2;
+				
+				opacity: .7;  
+				/* For IE 5-7 */
+				filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
+				/* For IE 8 */
+				-MS-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+			}
+					
+				.post-style .post-entry .last_projects UL LI A .last_projects_caption {
+					color: #270E02;
+					text-decoration: none;
+				}
+					
+					.post-style .post-entry .last_projects UL LI A:hover .last_projects_caption {
+						text-decoration: none !important;
+					}
+				.post-style .post-entry .last_projects UL LI .last_projects_caption P {
+					margin: 0; padding: 0px 0 4px 0;
+					line-height: 16px;
+
+				}
+				
+				.post-style .post-entry .last_projects UL LI .last_projects_caption .last_projects_caption_title  {
+					color: #ffffff;
+					font-weight: bolder;
+				}
+				.post-style .post-entry .last_projects UL LI .last_projects_caption .last_projects_caption_desc {
+					color: #ffffff;
+				}
+				
+				
+				
